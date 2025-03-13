@@ -1,0 +1,49 @@
+@theme {
+	--cp-none: none;
+
+	--cp-initial: initial;
+	--cp-inherit: inherit;
+	--cp-unset: unset;
+	--cp-revert: revert;
+	--cp-revert-layer: revert-layer;
+
+	--cp-margin: margin-box;
+	--cp-border: border-box;
+	--cp-padding: padding-box;
+	--cp-content: content-box;
+	--cp-fill: fill-box;
+	--cp-stroke: stroke-box;
+	--cp-view: view-box;
+}
+@utility cp-* {
+	clip-path: --value(--cp- *);
+}
+
+@utility cp-url-* {
+	clip-path: --value([url]);
+}
+
+@utility cp-inset-* {
+	clip-path: inset(--value([ *]));
+}
+@utility cp-circle-* {
+	clip-path: circle(--value([ *]));
+}
+@utility cp-ellipse-* {
+	clip-path: ellipse(--value([ *]));
+}
+@utility cp-polygon-* {
+	clip-path: polygon(--value([ *]));
+}
+@utility cp-path-* {
+	clip-path: path(--value([ *]));
+}
+@utility cp-rect-* {
+	clip-path: rect(--value([ *]));
+}
+@utility cp-shape-* {
+	clip-path: shape(--value([ *]));
+}
+@utility cp-xywh-* {
+	clip-path: xywh(--value([ *]));
+}
