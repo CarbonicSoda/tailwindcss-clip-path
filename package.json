@@ -1,7 +1,7 @@
 {
 	"name": "tailwindcss-clip-path",
 	"author": "CarbonicSoda",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Clip-Path Plugin for TailwindCSS",
 	"license": "MIT",
 	"repository": {
